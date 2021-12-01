@@ -75,7 +75,8 @@ deploying samples of containerized applications with Docker Compose.
 
 The root directory of each sample contains the `docker-compose.yaml` which
 describes the configuration of service components. All samples can be run in
-a local environment by going into the root directory of each one and executing:
+a local environment by going into the root directory of each one and executing
+(running containers in detached mode):
 
 ```console
 docker-compose up -d
